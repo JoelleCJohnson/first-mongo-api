@@ -13,7 +13,7 @@ If you place websites in the pink parenthesis,
  but no other sites will */
 
  app.get("/plants", getAllPlants)
- app.post("/plants", addPlant)
+ app.post("/plants", addPlant)//post from postman
 //  app.delete("/plants", deletePlant)
 
  app.listen(PORT, () => {
